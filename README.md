@@ -2,7 +2,7 @@
 Notes App (MongoDB, Express.js, React.js, Node.js)
 
 
-### Front-End - React
+### Front-End - React.js
 ### Back-End - Node.js, Express.js & MongoDB
 
 
