@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  min-height: 100vh;
+  background-image: url('./img/noteBcg.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Card styles */
+.card {
+  background-image: url('./img/texture2.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card .card-title,
+.title {
+  color: #fb8d62
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+label {
+  color: #fb8d62
+}
+
+/* Buttons styles */
+.btn-edit,
+.btn-edit:active,
+.btn-edit:visited,
+.btn-edit:focus {
+  background-color: #eece1a;
+  border-color: #eece1a;
+  color: #ffffff;
+  transition: all .3s ease;
+}
+
+.btn-edit:hover {
+  filter: brightness(90%);
+  color: #ffffff;
+}
+
+.btn-delete,
+.btn-delete:active,
+.btn-delete:visited,
+.btn-delete:focus {
+  background-color: #a73232;
+  border-color: #a73232;
+  color: #ffffff;
+  transition: all .3s ease;
+}
+
+.btn-delete:hover {
+  filter: brightness(90%);
+  color: #ffffff;
+}
+
+.btn-add,
+.btn-add:active,
+.btn-add:visited,
+.btn-add:focus {
+  margin-top: 50px;
+  background-color: #cd8d00;
+  border-color: #cd8d00;
+  color: #ffffff;
+  transition: all .3s ease;
+}
+
+.btn-add:hover {
+  filter: brightness(90%);
+  color: #ffffff;
+}
+
+
+.add-btn {
+  margin-bottom: 30px;
+}
+
+.btn-note {
+  width: 50%;
+}
+
+.btn-note:first-child {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.btn-note:nth-child(2) {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+/* Form styles */
+.form-bcg {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.form-bcg:focus {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #000000;
+}
+
+/* Modal styles */
+.ReactModal__Overlay {
+  opacity: 0;
+  transition: opacity 300ms ease-in-out;
+}
+
+.ReactModal__Overlay--after-open {
+  background-image: url('./img/note.jpg');
+  opacity: 1;
+}
+
+.ReactModal__Overlay--before-close {
+  opacity: 0;
+
+}
+
+.Modal {
+  background-image: url('./img/texture2.jpg');
+}
